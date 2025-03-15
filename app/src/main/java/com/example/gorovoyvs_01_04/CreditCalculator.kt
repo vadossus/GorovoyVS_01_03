@@ -35,7 +35,7 @@ class CreditCalculator : AppCompatActivity() {
         calculateButton = findViewById(R.id.enter)
         resultEditText = findViewById(R.id.pay_per_month)
 
-        seekBar.min = 0
+        seekBar.min = 30000
         seekBar.max = 100000
 
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
